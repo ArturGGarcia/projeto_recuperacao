@@ -2148,6 +2148,7 @@ GameObject:
   - component: {fileID: 519420035}
   - component: {fileID: 519420034}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 12
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2247,6 +2248,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 036544f0cf6049f47a9b701c84371d1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 637667322}
+  lerpRate: 4
 --- !u!61 &519420034
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4511,7 +4526,7 @@ PrefabInstance:
     - target: {fileID: 1226832016316725556, guid: 1f9b23a53e36c024ea016c9035be9115,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 114.6
+      value: 116.47
       objectReference: {fileID: 0}
     - target: {fileID: 1226832016316725556, guid: 1f9b23a53e36c024ea016c9035be9115,
         type: 3}
